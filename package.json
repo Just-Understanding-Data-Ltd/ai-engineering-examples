@@ -1,0 +1,26 @@
+{
+  "name": "context-engineering-examples",
+  "version": "1.0.0",
+  "description": "Runnable, tested Vercel AI SDK examples for context engineering: RAG, agents, structured output, evaluation, memory, and more. Companion to the Context Engineering Dictionary at understandingdata.com.",
+  "type": "module",
+  "license": "MIT",
+  "author": "James Phoenix (https://understandingdata.com)",
+  "homepage": "https://understandingdata.com/context-engineering/",
+  "scripts": {
+    "rag": "node examples/01-rag.mjs",
+    "agent": "node examples/02-agent-tool-loop.mjs",
+    "self-consistency": "node examples/03-self-consistency.mjs",
+    "llm-as-judge": "node examples/04-llm-as-judge.mjs",
+    "structured-output": "node examples/05-structured-output.mjs",
+    "embeddings": "node examples/06-embeddings.mjs",
+    "chunking": "node examples/07-chunking.mjs",
+    "prompt-chaining": "node examples/08-prompt-chaining.mjs",
+    "routing": "node examples/09-routing.mjs",
+    "memory": "node examples/10-conversation-memory.mjs"
+  },
+  "dependencies": {
+    "ai": "^7.0.14",
+    "@ai-sdk/openai": "^4.0.7",
+    "zod": "^4.4.3"
+  }
+}
