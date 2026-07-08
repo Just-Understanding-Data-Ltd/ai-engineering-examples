@@ -1,11 +1,15 @@
 {
-  "name": "context-engineering-examples",
+  "name": "ai-engineering-examples",
   "version": "1.0.0",
-  "description": "Runnable, tested Vercel AI SDK examples for context engineering: RAG, agents, structured output, evaluation, memory, and more. Companion to the Context Engineering Dictionary at understandingdata.com.",
+  "description": "Runnable, tested Vercel AI SDK examples for AI engineering: retrieval, agents, structured output, evaluation, memory, and AI security. Companion to the dictionaries at understandingdata.com.",
   "type": "module",
   "license": "MIT",
   "author": "James Phoenix (https://understandingdata.com)",
-  "homepage": "https://understandingdata.com/context-engineering/",
+  "homepage": "https://understandingdata.com/ai-native-software-engineering/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Just-Understanding-Data-Ltd/ai-engineering-examples.git"
+  },
   "scripts": {
     "rag": "node examples/01-rag.mjs",
     "agent": "node examples/02-agent-tool-loop.mjs",
@@ -16,7 +20,13 @@
     "chunking": "node examples/07-chunking.mjs",
     "prompt-chaining": "node examples/08-prompt-chaining.mjs",
     "routing": "node examples/09-routing.mjs",
-    "memory": "node examples/10-conversation-memory.mjs"
+    "memory": "node examples/10-conversation-memory.mjs",
+    "reranking": "node examples/11-reranking.mjs",
+    "hybrid-search": "node examples/12-hybrid-search.mjs",
+    "contextual-retrieval": "node examples/13-contextual-retrieval.mjs",
+    "prompt-injection": "node examples/14-prompt-injection.mjs",
+    "lethal-trifecta": "node examples/15-lethal-trifecta.mjs",
+    "mcp-tool-poisoning": "node examples/16-mcp-tool-poisoning.mjs"
   },
   "dependencies": {
     "ai": "^7.0.14",
